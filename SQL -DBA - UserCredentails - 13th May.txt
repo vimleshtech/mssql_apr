@@ -1,0 +1,26 @@
+==========================
+==========================
+DCL : Data Control Language (is also known as security control)
+	-create user,and set password
+		-USer type(SQL Auth. type)
+			1. Windows
+			2. SQL : Service Account(SQL Account)
+		-Enforce Policy (Expiry date, Change pwd after next login)
+		-Default database :
+			-master
+	-Grant Access / Permission		: user mapping
+	-Remove/Revoke/Delete Access 
+	
+	
+	
+	user_login1
+	Test@123
+		db:amazon : db owner
+		db:db_hrms: reader 
+
+
+Q.
+	Create 4 users
+	2 users should have all permission on any two database
+	2 users should have read and write permission on any two database
+	
